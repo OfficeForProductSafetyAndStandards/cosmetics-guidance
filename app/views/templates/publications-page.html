@@ -1,0 +1,105 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "/"
+      },
+      {
+        text: "Business and industry",
+        href: "/"
+      },
+      {
+        text: "Business regulation",
+        href: "/"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-l">Statutory guidance</span>
+      <h2 class="govuk-heading-l">Publication page</h2>
+      <p class="govuk-body-l">
+        This is a lead paragraph.
+      </p>
+    </div>
+    <div class="govuk-grid-column-full">
+      <hr class='govuk-!-margin-bottom-4'>
+    </div>
+    <div class="govuk-grid-column-two-thirds govuk-!-margin-bottom-8">
+      <p class="govuk-body-s govuk-!-margin-bottom-0">
+        Published 1 February 2020
+      </p>
+      <p class="govuk-body-s govuk-!-margin-bottom-0">
+        Last updated 10 February 2020 — <a href='#' class='govuk-link--no-visited-state'>see all updates</a>
+      </p>
+      <p class="govuk-body-s govuk-!-margin-bottom-0">
+        From: <a href='#' class='govuk-link--no-visited-state govuk-!-font-weight-bold'>Office for Product Safety and Standards</a>
+      </p>
+    </div>
+  </div>
+  <div class='govuk-grid-row'>
+    <div class="govuk-grid-column-two-thirds">
+      <h2 class="govuk-heading-l">
+        Documents
+      </h2>
+      <div class='prototype-clearfix govuk-!-margin-bottom-6'>
+        <div class='prototype-document'></div>
+        <h3 class='govuk-heading-m govuk-!-font-weight-regular govuk-!-margin-bottom-1'>
+          <a href='#' class='govuk-link--no-visited-state'>Document title 1</a>
+        </h3>
+        <p class='govuk-body-xs'>
+          PDF, 1000KB, 100 pages
+        </p>
+        <p class='govuk-body-xs'>
+          This file may not be suitable for users of assistive technology. <a href='#' class='govuk-link--no-visited-state'>Request an accessible format.</a>
+        </p>
+      </div>
+      <div class='prototype-clearfix govuk-!-margin-bottom-6'>
+        <div class='prototype-document'></div>
+        <h3 class='govuk-heading-m govuk-!-font-weight-regular govuk-!-margin-bottom-1'>
+          <a href='#' class='govuk-link--no-visited-state'>Document title 2</a>
+        </h3>
+        <p class='govuk-body-xs'>
+          PDF, 1000KB, 100 pages
+        </p>
+        <p class='govuk-body-xs'>
+          This file may not be suitable for users of assistive technology. <a href='#' class='govuk-link--no-visited-state'>Request an accessible format.</a>
+        </p>
+      </div>
+      <h2 class="govuk-heading-l">
+        Details
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum est odio natus ipsa laudantium aliquid asperiores nulla corporis sapiente quaerat ipsam tenetur praesentium obcaecati magnam magni architecto optio, perferendis at!
+      </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+      <hr class='prototype-hr--blue'>
+      <h2 class="govuk-heading-s">
+        Related content
+      </h2>
+      <ul class="govuk-list govuk-body-s">
+        <li class='govuk-!-margin-bottom-2'>
+          <a href='#' class='govuk-link--no-visited-state'>Related item 1</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href='#' class='govuk-link--no-visited-state'>Related item 2</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+{% endblock %}
