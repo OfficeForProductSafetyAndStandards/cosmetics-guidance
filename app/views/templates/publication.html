@@ -1,0 +1,70 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "/"
+      },
+      {
+        text: "Business and industry",
+        href: "/"
+      },
+      {
+        text: "Business regulation",
+        href: "/"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <div class='prototype-organisation'>
+        <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0023/1707/brand.gif?itok=o70193BZ" alt="">
+        <p>
+          Office for Product<br>
+          Safety & Standards
+        </p>
+      </div>
+      <div class='prototype-banner-title'>
+        <span class="govuk-caption-xl">Publication</span>
+        <h1 class="govuk-heading-xl">Publication heading</h1>
+        <p>
+          Updated 1 February 2020
+        </p>
+      </div>
+    </div>
+    <div class="govuk-grid-column-one-third">
+      <h2 class='govuk-body-s'>
+        Contents
+      </h2>
+      <ol class="govuk-list govuk-body-s">
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Item 1</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Item 2</a>
+        </li>
+      </ol>
+    </div>
+    <div class="govuk-grid-column-two-thirds">
+      <h2 class="govuk-heading-l">
+        Heading
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga maiores quisquam deleniti laborum porro ab, facilis reprehenderit dolorum. Nam cumque, perferendis non earum hic accusamus tempore beatae totam fuga nihil.
+      </p>
+    </div>
+  </div>
+
+{% endblock %}

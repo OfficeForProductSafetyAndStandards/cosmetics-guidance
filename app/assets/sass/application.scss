@@ -53,3 +53,27 @@ hr {
 .prototype-clearfix {
   overflow: auto;
 }
+
+.prototype-organisation {
+  p { 
+    font-family: helvetica, arial;
+  }
+  border-left: 2px solid $govuk-link-hover-colour;
+  padding-left: 5px;
+  img {
+    width: 40px;
+  }
+}
+
+.prototype-banner-title {
+  background-color: $govuk-brand-colour;
+  padding: 20px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+  span.govuk-caption-xl, h1.govuk-heading-xl, p {
+    color: white;
+  }
+  h1.govuk-heading-xl {
+    margin-bottom: 20px;
+  }
+}
