@@ -1,0 +1,2647 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "/"
+      },
+      {
+        text: "Business and industry",
+        href: "/"
+      },
+      {
+        text: "Business regulation",
+        href: "/"
+      },
+      {
+        text: "Cosmetic products: allowed UV filters",
+        href: "uv-filters-splash"
+      },
+      {
+        text: "UV filters allowed for use in cosmetic products",
+        href: "/"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <div class='prototype-organisation'>
+        <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0023/1707/brand.gif?itok=o70193BZ" alt="">
+        <p>
+          Office for Product<br>
+          Safety & Standards
+        </p>
+      </div>
+      <div class='prototype-banner-title'>
+        <span class="govuk-caption-xl">Publication</span>
+        <h1 class="govuk-heading-xl">UV filters allowed for use in cosmetic products</h1>
+        <p>
+          Updated 1 February 2020
+        </p>
+      </div>
+    </div>
+    <div class="govuk-grid-column-one-third">
+      <h2 class='govuk-body-s'>
+        Contents
+      </h2>
+      <ol class="govuk-list govuk-body-s">
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#camphor" class='govuk-link--no-visited-state prototype-link--no-underline'>Camphor benzalkonium methosulfate</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#homosalate" class='govuk-link--no-visited-state prototype-link--no-underline'>Homosalate</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#benzophenone" class='govuk-link--no-visited-state prototype-link--no-underline'>Benzophenone-3</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Phenylbenzimidazole sulfonic acid</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Terephthalylidene dicamphor sulfonic acid</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Butyl methoxydibenzoylmethane</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Benzylidene camphor sulfonic acid/a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Octocrylene</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Polyacrylamidomethyl benzylidene camphor</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Ethylhexyl methoxycinnamate</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Peg-25 paba</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Isoamyl p-methoxycinnamate</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Ethylhexyl triazone</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Drometrizole trisiloxane</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Diethylhexyl butamido triazone</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>4-methylbenzylidene camphor</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Ethylhexyl salicylate</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Ethylhexyl dimethyl paba</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Benzophenone-4; benzophenone-5</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Methylene bis-benzotriazolyl tetramethylbutylphenol</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Methylene bis-benzotriazolyl tetramethylbutylphenol (nano)</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Disodium phenyl dibenzimidazole tetrasulfonate</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Bis-ethylhexyloxyphenol methoxyphenyl triazine</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Polysilicone-15</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Titanium dioxide</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Titanium dioxide (nano)</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Diethylamino hydroxybenzoyl hexyl benzoate</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Tris-biphenyl triazine / tris-biphenyl triazine (nano)</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Zinc oxide</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Zinc oxide (nano)</a>
+        </li>
+        <li class='govuk-!-margin-bottom-2'>
+          <a href="#" class='govuk-link--no-visited-state prototype-link--no-underline'>Phenylene bis-diphenyltriazine</a>
+        </li>
+      </ol>
+    </div>
+    <div class="govuk-grid-column-two-thirds">
+      <br>
+
+      <a name="camphor"><h2 class="govuk-heading-l">
+        Camphor benzalkonium methosulfate
+      </h2></a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+            2
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        N,N,N -Trimethyl-4-(2-oxoborn-3-ylidenemethyl) anilinium methyl sulphate
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Camphor benzalkonium methosulfate
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 52793-97-2
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                258-190-8
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               6%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <a name="homosalate">
+        <h2 class="govuk-heading-l">
+          Homosalate        </h2>
+          </a>
+
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+            3
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Benzoic acid, 2 -hydroxy-, 3,3,5-trimethylcyclohexyl ester / Homosalate
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Homosalate
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 118-56-9
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                204-260-8
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <a name="benzophenone">
+        <h2 class="govuk-heading-l">
+        Benzophenone-3
+        </h2>
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              4
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2 -Hydroxy-4-methoxybenzophenone / Oxybenzone
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Benzophenone-3
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           2-Hydroxy-4-methoxybenzophenone / Oxybenzone
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 131-57-7
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                205-031-5
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               6%  Reg (EU) 2017/238 of 10 February 2017 - date of application from September 2017
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               Not more than 0,5 % to protect product formulation
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Phenylbenzimidazole sulfonic acid
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              6
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2 -Phenylbenzimidazole-5-sulphonic acid and its potassium, sodium and triethanolamine salts / Ensulizole
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Phenylbenzimidazole sulfonic acid
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 27503-81-7
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                248-502-0
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               8%(as acid)
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Terephthalylidene dicamphor sulfonic acid
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              7
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        3,3' -(1,4-Phenylenedimethylene) bis (7,7-dimethyl-2-oxobicyclo-[2.2.1] hept-1-ylmethanesulfonic acid) and its salts / Ecamsule
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Terephthalylidene dicamphor sulfonic acid
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 92761-26-7 / 90457-82-2
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                410-960-6 / -
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%(as acid)
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Butyl methoxydibenzoylmethane
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              8
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        1 -(4-tert-Butylphenyl)-3-(4-methoxyphenyl) propane-1,3-dione / Avobenzone
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Butyl methoxydibenzoylmethane
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                70356-09-01
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                274-581-6
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               5%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Benzylidene camphor sulfonic acid
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              9
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        alpha -(2-Oxoborn-3-ylidene)toluene-4-sulphonic acid and its salts
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Benzylidene camphor sulfonic acid
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 56039-58-8
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                -
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               6%(as acid)
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Octocrylene
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              10
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2 -Cyano-3,3-diphenyl acrylic acid 2-ethylhexyl ester / Octocrilene
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Octocrylene
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           2-Cyano-3,3-diphenyl acrylic acid 2-ethylhexyl ester / Octocrilene
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 6197-30-4
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                228-250-8
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%(as acid)
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Polyacrylamidomethyl benzylidene camphor
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              11
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Polymer of N -{(2 and 4)-[(2-oxoborn-3-ylidene)methyl]benzyl}acrylamide
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Polyacrylamidomethyl benzylidene camphor
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 113783-61-2
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                -
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               6%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Ethylhexyl methoxycinnamate
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              12
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2 -Ethylhexyl 4-methoxycinnamate / Octinoxate
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Ethylhexyl methoxycinnamate
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           Ethylhexyl Methoxycinnamate is the ester of 2-ethylhexyl alcohol and methoxycinnamic acid.
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 5466-77-3
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                226-775-7
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Peg-25 paba
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              13
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Ethoxylated Ethyl -4-Aminobenzoate
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Peg-25 paba
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 116242-27-4
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                -
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+          <br>
+
+        <h2 class="govuk-heading-l">
+        Isoamyl p-methoxycinnamate
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              14
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Isopentyl -4-methoxycinnamate / Amiloxate
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Isoamyl p-methoxycinnamate
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                71617-10-2
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                275-702-5
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+       Ethylhexyl triazone
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              15
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2,4,6 -Trianilino-(p-carbo-2'-ethylhexyl-1'-oxy)-1,3,5-triazine
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Ethylhexyl triazone
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 88122-99-0
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                402-070-1
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               5%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Drometrizole trisiloxane
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              16
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Phenol, 2 -(2H-Benzotriazol-2-yl)-4-Methyl-6-(2-Methyl-3-(1,3,3,3-Tetramethyl-1-(Trimethylsilyl)Oxy)-Disiloxanyl)Propyl
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Drometrizole trisiloxane
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 155633-54-8
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                -
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               15%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+          <br>
+
+        <h2 class="govuk-heading-l">
+        Diethylhexyl butamido triazone
+        </h2>
+        <a name="">
+        </a>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              17
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Benzoic acid, 4,4 -{[6-[[[(1,1-dimethylethyl)amino]carbonyl]phenyl]amino]-1,3-5-triazine-2,4-diyl]diimino}bis-, bis(2-ethylhexyl)ester / Iscotrizinol
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Diethylhexyl butamido triazone
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 154702-15-5
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                -
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        4-methylbenzylidene camphor
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              18
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        3 -(4'-Methylbenzylidene)-dl-camphor / Enzacamene
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          4-methylbenzylidene camphor
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           4-MBC
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 36861-47-9 / 38102-62-4
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                253-242-6 /
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               4%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Ethylhexyl salicylate
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              20
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2 -Ethylhexyl salicylate / Octisalate)
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Ethylhexyl salicylate
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 118-60-5
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                204-263-4
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               5%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Ethylhexyl dimethyl paba
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              21
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2 -Ethylhexyl 4-(dimethylamino)benzoate / Padimate O (USAN:BAN)
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Ethylhexyl dimethyl paba
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                21245-02-03
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                244-289-3
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               8%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Benzophenone-4; benzophenone-5
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              22
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2 -Hydroxy-4-methoxybenzophenone-5-sulfonic acid (Benzophenone-5) and its sodium salt / Sulisobenzone
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Benzophenone-4; benzophenone-5
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 4065-45-6 / 6628-37-1
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                223-772-2 / -
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               5%(as acid)
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Methylene bis-benzotriazolyl tetramethylbutylphenol
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              23
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2,2' -Methylene bis(6-(2H-benzotriazol-2-yl)-4-(1,1,3,3-tetramethylbutyl)phenol) / Bisoctrizole
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Methylene bis-benzotriazolyl tetramethylbutylphenol
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 103597-45-1
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                403-800-1
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Methylene bis-benzotriazolyl tetramethylbutylphenol (nano)
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              23a
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Methylene Bis -Benzotriazolyl Tetramethylbutylphenol (nano)
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Methylene bis-benzotriazolyl tetramethylbutylphenol (nano)
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           2,2′-Methylene-bis(6-(2H-benzotriazol-2-yl)-4- (1,1,3,3-tetramethylbutyl)phenol)/Bisoctrizole
+        Methylene Bis- Benzotriazolyl Tetramethylbutylphenol (nano)
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 103597-45-1
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                403-800-1
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10 %(*)  (*) In case of combined use of Methylene Bis -Benzotriazolyl Tetramethylbutylphenol and Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (nano), the sum shall not exceed the limit given in column g..
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               Not to be used in applications that may lead to exposure of the end user's lungs by inhalation.  Only nanomaterials having the following characteristics are allowed:  - Purity ≥ 98,5 %, with 2,2′ -methylene-bis- (6(2H-benzotriazol-2-yl)-4-(isooctyl)phenol) isomer fraction not exceeding 1,5 %; - Solubility < 5 ng/L in water at 25 °C; - Partition coefficient (Log Pow): 12,7 at 25 °C;  - Uncoated;  - Median particle size D50 (50 % of the number below this diameter): ≥ 120 nm of mass distribution and/or ≥ 60 nm of number size distribution.
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Disodium phenyl dibenzimidazole tetrasulfonate
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              24
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Sodium salt of 2,2' -bis(1,4-phenylene)-1H-benzimidazole-4,6-disulfonic acid / Bisdisulizole disodium (USAN)
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Disodium phenyl dibenzimidazole tetrasulfonate
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 180898-37-7
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                429-750-0
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%(as acid)
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Bis-ethylhexyloxyphenol methoxyphenyl triazine
+        </h2>
+
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              25
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        2,2' -(6-(4-Methoxyphenyl)-1,3,5-triazine-2,4-diyl)bis(5-((2-ethylhexyl)oxy)phenol) / Bemotrizinol
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Bis-ethylhexyloxyphenol methoxyphenyl triazine
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 187393-00-6
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Polysilicone-15
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              26
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Dimethicodiethylbenzalmalonate
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Polysilicone-15
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 207574-74-1
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                426-000-4
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Titanium dioxide
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              27
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Titanium Dioxide
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Titanium dioxide
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           Titanium Dioxide
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 13463-67-7[1]/ 1317-70-0[2]/ 1317-80-2[3]
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                236-675-5[1] /215-280-1[2]/215-282-2 [ 3]
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               25%* *: In case of combined use of Titanium Dioxide and Titanium Dioxide (nano), the sum shall not exceed the limit given in column g (Maximum concen­tration in ready for use preparation)
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Titanium dioxide (nano)
+        </h2>
+
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              27a
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Titanium dioxide (nano)
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Titanium dioxide (nano)
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           Titanium dioxide [1];Anatase (TiO2) [2];Rutile (TiO2) [3]
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 13463-67-7[1]/ 1317-70-0[2]/ 1317-80-2[3]
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                236-675-5[1] /215-280-1[2]/ 215-282-2[3]
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               25%  - In case of combined use of Titanium Dioxide and Titanium Dioxide (nano), the sum shall not exceed the limit of 25%.
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Diethylamino hydroxybenzoyl hexyl benzoate
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              28
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Benzoic acid, 2 -[4-(diethylamino)-2-hydroxybenzoyl]-, hexylester
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Diethylamino hydroxybenzoyl hexyl benzoate
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 302776-68-7
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                443-860-6
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Tris-biphenyl triazine / tris-biphenyl triazine (nano)
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              29
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        1,3,5 -Triazine, 2,4,6-tris(1,1'-biphenyl)-4-yl-, including as nanomaterial
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Tris-biphenyl triazine / tris-biphenyl triazine (nano)
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           1,3,5-Triazine, 2,4,6-tris(1,1'-biphenyl)-4-yl-
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 31274-51-8
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               10%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               Not to be used in sprays. Only nanomaterials having the folloing characteristics are allowed:  - Median primary particle size >80 nm; - Purity ≥ 98%;  - Uncoated
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Zinc oxide
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              30
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        Zinc oxide
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Zinc oxide
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 1314-13-2
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                215-222-5
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+                - 25%  - In case of combined use of zinc oxide and zinc oxide (nano), the sum shall not exceed the limit of 25%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Zinc oxide (nano)
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              30a
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+         Zinc oxide (nano)
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Zinc oxide (nano)
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           Zinc oxide (nano)
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 1314-13-2
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                215-222-5
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               25%   - In case of combined use of zinc oxide and zinc oxide (nano), the sum shall not exceed the limit of 25%
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+        <br>
+
+        <h2 class="govuk-heading-l">
+        Phenylene bis-diphenyltriazine
+        </h2>
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Reference number
+            </dt>
+            <dd class="govuk-summary-list__value">
+              31
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Chemical name / INN / XAN
+          </dt>
+          <dd class="govuk-summary-list__value">
+        3,3′ -(1,4-Phenylene)bis(5,6-diphenyl-1,2,4-triazine)
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              	Name of common ingredients glossary (INCI)
+            </dt>
+            <dd class="govuk-summary-list__value">
+          Phenylene bis-diphenyltriazine
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+             IUPAC name
+            </dt>
+            <dd class="govuk-summary-list__value">
+           3,3′-(1,4-Phenylene)bis(5,6-diphenyl-1,2,4-triazine)
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              CAS number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                 55514-22-2;
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              EC number
+            </dt>
+            <dd class="govuk-summary-list__value">
+                700-823-1;
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Maximum concentration
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Conditions of use
+            </dt>
+            <dd class="govuk-summary-list__value">
+               N/A
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                CMR
+              </dt>
+              <dd class="govuk-summary-list__value">
+                 N/A
+              </dd>
+            </div>
+        </dl>
+    </div>
+  </div>
+
+{% endblock %}
